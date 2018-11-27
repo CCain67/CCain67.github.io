@@ -1,6 +1,5 @@
 # Minimal-startpage
-
-Startpage with a minimal theme
+This is areking's minimal startpage, which I have edited (https://areking.github.io/). 
 
 
 # Launch
@@ -43,11 +42,6 @@ Most browsers will require you to use extensions to set a custom startpage as yo
 - [Custom New Tab Page](https://addons.opera.com/en/extensions/details/custom-new-tab-page/) for Opera
 - Safari - set this startpage as your homepage in settings
 
-
-## Credits
-
-Startpage by areking.
-[Other Startpages](https://areking.github.io/)
 
 ## License
 
