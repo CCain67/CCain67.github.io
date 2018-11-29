@@ -27,7 +27,7 @@
 		nhour = ((nhour + 11) % 12 + 1);
 
 		document.getElementById('clockbox').innerHTML = nhour + ":" + nmin ;
-		document.getElementById('datebox').innerHTML = tdate[nday] + ", " + ndate + "-" + tmonth[nmonth];
+		document.getElementById('datebox').innerHTML = tdate[nday] + ", " + tmonth[nmonth] + " " + ndate;
 	}
 	
 	
