@@ -11,8 +11,8 @@
 	
 	/* TIME */
 
-	var tmonth = ["JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG", "SEP", "OCT", "NOV", "DEC"];
-	var tdate = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+	var tmonth = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+	var tdate = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
 	function GetClock() {
 		var d = new Date();
@@ -27,7 +27,7 @@
 		nhour = ((nhour + 11) % 12 + 1);
 
 		document.getElementById('clockbox').innerHTML = nhour + ":" + nmin ;
-		document.getElementById('datebox').innerHTML = tdate[nday] + "-" + ndate + "-" + tmonth[nmonth];
+		document.getElementById('datebox').innerHTML = tdate[nday] + ", " + ndate + "-" + tmonth[nmonth];
 	}
 	
 	
