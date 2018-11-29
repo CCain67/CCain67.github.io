@@ -24,6 +24,7 @@
 		var nhour = d.getHours();
 		var nmin = d.getMinutes();
 		if(nmin<=9) nmin = "0" + nmin
+		nhour = ((nhour + 11) % 12 + 1);
 
 		document.getElementById('clockbox').innerHTML = nhour + ":" + nmin ;
 		document.getElementById('datebox').innerHTML = tdate[nday] + "-" + ndate + "-" + tmonth[nmonth];
