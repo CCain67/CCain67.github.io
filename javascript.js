@@ -23,6 +23,7 @@
 		if(nyear<1000) nyear+=1900;
 		var nhour = d.getHours();
 		var nmin = d.getMinutes();
+		nhours = ((nhours + 11) % 12 + 1);
 		if(nmin<=9) nmin = "0" + nmin
 
 		document.getElementById('clockbox').innerHTML = nhour + ":" + nmin ;
