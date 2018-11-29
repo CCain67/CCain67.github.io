@@ -37,7 +37,7 @@ main {
 	width: 200px;
 	text-align: right;
 	font-weight: bold;
-	margin: 0 10px;
+	margin: 0 20px;
 }	
 
 li {
@@ -46,7 +46,7 @@ li {
 	font-family: "ubuntu mono";
 	display: inline-block;
 	list-style: none;
-	margin: 3px 7px; 
+	margin: 3px 10px; 
 }
 
 a {
@@ -66,10 +66,10 @@ a:hover {
 	font-size: 20px;
 	font-weight: bold;
 	height: 25px;
-	margin-top: 25px;
+	margin-top: 45px;
 	padding: 5px;
-	transition: .2s;
-	width: 100%; 
+	transition: .1s;
+	width: 1000px; 
 	outline: none;
 	text-transform: none;
 }
