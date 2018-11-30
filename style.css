@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	background-color: #282828;
+	background-color: #282c34;
 	color:#ebdbb2;
    }
    
@@ -25,7 +25,7 @@ main {
 }	
 
 #clock {
-	color: #ebdbb2;
+	color: #cfd7e6;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -50,17 +50,17 @@ li {
 }
 
 a {
-	color:#ebdbb2;
+	color:#cfd7e6;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #a89984;
+	color: #abb2bf;
 }
 
 #input1 {
-	background: #665c54;
-	color: #ebdbb2;
+	background: #454c59;
+	color: #cfd7e6;
 	border: none;
 	font-family: "ubuntu mono";
 	font-size: 20px;
@@ -104,19 +104,19 @@ a:hover {
 
 /* COLORS */
 .purple {
-	color: #d3869b;
+	color: #e48aff;
 }
 .red {
-	color: #fb4934;
+	color: #ff7a85;
 }
 .yellow {
-	color: #fabd2f;
+	color: #ffd68a;
 }
 .green {
-	color: #8ec07c;
+	color: #b5e890;
 }
 .blue {
-	color: #83a598;
+	color: #69bbff;
 }
 
 
