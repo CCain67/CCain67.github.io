@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-	background-color: #282c34;
+	background-color: #282828;
 	color:#ebdbb2;
    }
    
@@ -59,8 +59,8 @@ a:hover {
 }
 
 #input1 {
-	background: #454c59;
-	color: #cfd7e6;
+	background: #504945;
+	color: #ebdbb2;
 	border: none;
 	font-family: "ubuntu mono";
 	font-size: 20px;
@@ -104,19 +104,19 @@ a:hover {
 
 /* COLORS */
 .purple {
-	color: #e48aff;
+	color: #d3869b;
 }
 .red {
-	color: #ff7a85;
+	color: #fb4934;
 }
 .yellow {
-	color: #ffd68a;
+	color: #fabd2f;
 }
 .green {
-	color: #b5e890;
+	color: #8ec07c;
 }
 .blue {
-	color: #69bbff;
+	color: #83a598;
 }
 
 
