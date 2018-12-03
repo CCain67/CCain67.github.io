@@ -25,7 +25,7 @@ main {
 }	
 
 #clock {
-	color: #cfd7e6;
+	color: #ebdbb2;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -50,12 +50,12 @@ li {
 }
 
 a {
-	color:#cfd7e6;
+	color:#ebdbb2;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #abb2bf;
+	color: #89984;
 }
 
 #input1 {
