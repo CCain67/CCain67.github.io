@@ -40,7 +40,7 @@
 		['!r ', 'reddit'],
 		['!w ', 'wikipedia'],
 		['!yt ', 'youtube']
-		
+
 	]
 
 	var s4 = [
@@ -66,7 +66,7 @@
 
 	
 	/* INPUT SEARCH */
-/*	
+	
 	var input1 = document.getElementById('input1');
 	var help = document.getElementById('help');
 	
@@ -138,7 +138,7 @@
 			}
 		}
 	})
-*/	
+
 	
 	
 	/* HELP */
