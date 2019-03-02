@@ -45,10 +45,11 @@
 
 	var s4 = [
 
-		['!mathse', 'math stack exchange'],
+		['!mathse', 'math stack'],
 		['!mo', 'math overflow'],
 		['!nlab', 'nlab'],
 		['!arx', 'arxiv'],
+		['!stacksproj', 'stacks project'],
 		
 	]	
 
@@ -56,6 +57,9 @@
 
 		['!sklearn', 'scikit-learn'],
 		['!so', 'stack overflow'],
+		['!teflo', 'tensorflow'],
+		['!di', 'dictionary'],
+		['!like', 'thesaurus'],
 		
 	]
 	
