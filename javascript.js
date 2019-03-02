@@ -80,7 +80,6 @@
 		input1.focus();
 		input1.blur();
 		input1.focus();
-		help.style.display = 'none';
 		event.preventDefault();
 	}
 
@@ -96,15 +95,6 @@
 				return false;
 			}
 			else {
-			
-				switch (value.substr(0,2)){
-					case '-?':
-						clearInput();
-						help.style.display = 'block';
-
-						return false;
-						break;
-				}
 
 				
 				for (i=0; i<s3.length; i++){
