@@ -102,20 +102,20 @@ a:hover {
 	display: inline-block;
 	vertical-align: top;
 }
-.cmdH {
+.bangH {
 	display: block;
 	text-align: right;
 	color: white;
 }
-.actH {
+.siteH {
 	display: block;
 	color: white;
 }
-.cmd {
+.bang {
 	display: block;
 	text-align: right;
 }
-.act {
+.site {
 	display: block;
 }
 
