@@ -63,15 +63,17 @@ a:hover {
 	color: #c0c5ce;
 	border: none;
 	font-family: Lekton Nerd Font;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: bold;
 	height: 25px;
+	text-align: center;
 	margin-top: 45px;
-	padding: 5px;
-	transition: .1s;
+	padding: 7px;
+	transition: .ls;
 	width: 1000px; 
 	outline: none;
 	text-transform: none;
+	border-radius: 15px;
 }
 
 #help {
