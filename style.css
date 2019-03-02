@@ -1,3 +1,19 @@
+/* COLORS */
+.purple {
+	color: #b48ead;
+}
+.red {
+	color: #bf616a;
+}
+.yellow {
+	color: #ebcb8b;
+}
+.green {
+	color: #a3be8c;
+}
+.blue {
+	color: #8fa1b3;
+}
 
 html, body {
 	margin: 0;
@@ -104,19 +120,3 @@ a:hover {
 }
 
 
-/* COLORS */
-.purple {
-	color: #b48ead;
-}
-.red {
-	color: #bf616a;
-}
-.yellow {
-	color: #ebcb8b;
-}
-.green {
-	color: #a3be8c;
-}
-.blue {
-	color: #8fa1b3;
-}
