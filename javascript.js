@@ -39,7 +39,7 @@
 		['!a ', 'amazon'],
 		['!r ', 'reddit'],
 		['!w ', 'wikipedia'],
-		['!yt ', 'youtube']
+		['!yt ', 'youtube'],
 
 	]
 
@@ -48,14 +48,14 @@
 		['!mathse', 'math stack exchange'],
 		['!mo', 'math overflow'],
 		['!nlab', 'nlab'],
-		['!arx', 'arxiv']
+		['!arx', 'arxiv'],
 		
 	]	
 
 	var s5 = [
 
 		['!sklearn', 'scikit-learn'],
-		['!so', 'stack overflow']
+		['!so', 'stack overflow'],
 		
 	]
 	
@@ -148,8 +148,8 @@
 	function displayHelp(){
 	
 	
-		var cmd = document.querySelectorAll('bang');
-		var act = document.querySelectorAll('site');
+		var cmd = document.querySelectorAll('.cmd');
+		var act = document.querySelectorAll('.act');
 		
 		var allSites = s3.concat(s4, s5);
 		allSites.sort();
