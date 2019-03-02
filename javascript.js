@@ -152,8 +152,8 @@
 	function displayHelp(){
 	
 	
-		var cmd = document.querySelectorAll('.cmd');
-		var act = document.querySelectorAll('.act');
+		var cmd = document.querySelectorAll('.bang');
+		var act = document.querySelectorAll('.site');
 		
 		var allSites = s3.concat(s4, s5);
 		allSites.sort();
