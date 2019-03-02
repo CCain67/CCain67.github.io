@@ -80,7 +80,7 @@
 		input1.focus();
 		input1.blur();
 		input1.focus();
-		help.style.display = 'none';
+		help.style.display = 'block';
 		event.preventDefault();
 	}
 
@@ -170,5 +170,3 @@
 			}
 		}
 	}
-
-	displayHelp();
