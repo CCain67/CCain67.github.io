@@ -152,8 +152,8 @@
 	function displayHelp(){
 	
 	
-		var bang = document.querySelectorAll('.ban');
-		var site = document.querySelectorAll('.sit');
+		var cmd = document.querySelectorAll('.cmd');
+		var act = document.querySelectorAll('.act');
 		
 		var allSites = s3.concat(s4, s5);
 		allSites.sort();
@@ -161,13 +161,13 @@
 
 		for (let i=0; i<allSites.length; i++){
 			for (let j=0; j<allSites[i].length; j++){
-				bang[i].innerHTML = allSites[i][0]
+				cmd[i].innerHTML = allSites[i][0]
 			}
 		}
 		
 		for (let i=0; i<allSites.length; i++){
 			for (let j=0; j<allSites[i].length; j++){
-				site[i].innerHTML = allSites[i][1]
+				act[i].innerHTML = allSites[i][1]
 			}
 		}
 	}
