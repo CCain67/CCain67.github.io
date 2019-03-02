@@ -4,7 +4,6 @@
 		
 		GetClock();
 		setInterval(GetClock, 1000);
-		displayHelp();
 	
 	}, false );
 	
@@ -151,7 +150,7 @@
 
 	function displayHelp(){
 	
-	
+
 		var bang = document.querySelectorAll('.bang');
 		var site = document.querySelectorAll('.site');
 		
@@ -171,3 +170,5 @@
 			}
 		}
 	}
+
+	displayHelp();
