@@ -93,7 +93,7 @@ a:hover {
 }
 
 #help {
-	display: none;
+	display: block;
 	margin-top: 50px;
 }
 
