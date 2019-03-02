@@ -1,5 +1,5 @@
 
-	
+
 	document.addEventListener('DOMContentLoaded', function(){
 		
 		GetClock();
@@ -36,45 +36,37 @@
 
 	var s3 = [
 	
-		['-a ', 'amazon', 'https://www.amazon.it/s/ref=nb_sb_noss_2?__mk_it_IT=ÅMÅŽÕÑ&url=search-alias%3Daps&field-keywords='],
-		['-f ', 'facebook', 'https://www.facebook.com/search/top/?q='],
-		['-k ', 'kat.cr', 'https://katcr.co/new/torrents-search.php?search='],
-		['-i ', 'google_img',	'https://www.google.it/search?hl=it&site=imghp&tbm=isch&source=hp&biw=1540&bih=762&q='],
-		['-r ', 'reddit', 'https://www.reddit.com/search?q='],
-		['-t ', 'twitter', 'https://twitter.com/search?q='],
-		['-w ', 'wikipedia', 'https://it.wikipedia.org/wiki/'],
-		['-y ', 'youtube', 'https://www.youtube.com/results?search_query='],
-	
+		['!a ', 'amazon'],
+		['!r ', 'reddit'],
+		['!w ', 'wikipedia'],
+		['!yt ', 'youtube']
+		
 	]
 
 	var s4 = [
 
-		['-dd ', 'ddunlimited', 'http://www.ddunlimited.net/search.php?keywords='],
-		['-im ', 'imgur', 'http://imgur.com/search?q=',],
-		['-ra ', 'rarbg', 'https://rarbg.to/torrents.php?search='],
-		['-sc ', 'sin&con', 'http://www.sinonimi-contrari.it/'],
-		['-su ', 'subspedia', 'http://www.subspedia.tv/listaSerie.php?cerca='],
-		['-tr ', 'google_translate', 'https://translate.google.com/?hl=it#auto/it/'],
-		['-ug ', 'ult_guitar', 'https://www.ultimate-guitar.com/search.php?search_type=title&order=&value='],
-		['-wr ', 'word_reference', 'http://www.wordreference.com/iten/'],
+		['!mathse', 'math stack exchange'],
+		['!mo', 'math overflow'],
+		['!nlab', 'nlab'],
+		['!arx', 'arxiv']
 		
 	]	
 
 	var s5 = [
 
-		['-tpb ', 'thepiratebay', 'https://thepiratebay.org/search/'],
-		['-cds ', 'chit_spiaggia', 'http://www.chitarradaspiaggia.com/forum/search.php?keywords='],
+		['!sklearn', 'scikit-learn'],
+		['!so', 'stack overflow']
 		
 	]
 	
 	
 	var google = 'http://www.google.com/search?q=';
 	var duckduckgo = 'https://duckduckgo.com/?q=';
-	var defaultSearch = google;
+	var defaultSearch = duckduckgo;
 
 	
 	/* INPUT SEARCH */
-	
+/*	
 	var input1 = document.getElementById('input1');
 	var help = document.getElementById('help');
 	
@@ -146,7 +138,7 @@
 			}
 		}
 	})
-	
+*/	
 	
 	
 	/* HELP */
@@ -156,8 +148,8 @@
 	function displayHelp(){
 	
 	
-		var cmd = document.querySelectorAll('.cmd');
-		var act = document.querySelectorAll('.act');
+		var cmd = document.querySelectorAll('bang');
+		var act = document.querySelectorAll('site');
 		
 		var allSites = s3.concat(s4, s5);
 		allSites.sort();
