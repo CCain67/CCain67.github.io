@@ -47,7 +47,7 @@
 		['!mathse', 'math stack'],
 		['!mo', 'math overflow'],
 		['!nlab', 'nlab'],
-		['!arx', 'arxiv'],
+		['!arxiv', 'arxiv'],
 		['!stacksproj', 'stacks project'],
 		
 	]	
