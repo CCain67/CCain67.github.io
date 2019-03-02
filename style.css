@@ -29,7 +29,7 @@ body {
 main {
 	display: block;
 	position: absolute;
-	top: 35%;
+	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 } 
@@ -57,7 +57,7 @@ main {
 }	
 
 li {
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: bold;
 	font-family: Lekton Nerd Font;
 	display: inline-block;
@@ -94,7 +94,7 @@ a:hover {
 
 #help {
 	display: none;
-	margin-top: 10px;
+	margin-top: 50px;
 }
 
 .col {

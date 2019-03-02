@@ -4,7 +4,7 @@
 		
 		GetClock();
 		setInterval(GetClock, 1000);
-
+		displayHelp();
 	
 	}, false );
 	
@@ -70,7 +70,7 @@
 
 	
 	/* INPUT SEARCH */
-	
+/*	
 	var input1 = document.getElementById('input1');
 	var help = document.getElementById('help');
 	
@@ -143,7 +143,7 @@
 		}
 	})
 
-	
+*/	
 	
 	/* HELP */
 	
