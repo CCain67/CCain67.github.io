@@ -161,13 +161,13 @@
 
 		for (let i=0; i<allSites.length; i++){
 			for (let j=0; j<allSites[i].length; j++){
-				cmd[i].innerHTML = allSites[i][0]
+				bang[i].innerHTML = allSites[i][0]
 			}
 		}
 		
 		for (let i=0; i<allSites.length; i++){
 			for (let j=0; j<allSites[i].length; j++){
-				act[i].innerHTML = allSites[i][1]
+				site[i].innerHTML = allSites[i][1]
 			}
 		}
 	}
