@@ -39,6 +39,7 @@
 		['!r ', 'reddit'],
 		['!w ', 'wikipedia'],
 		['!yt ', 'youtube'],
+		['!spt', 'spotify'],
 
 	]
 
