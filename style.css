@@ -1,18 +1,18 @@
 /* COLORS */
 .purple {
-	color: #b48ead;
+	color: #d3869b;
 }
 .red {
-	color: #bf616a;
+	color: #fb4394;
 }
 .yellow {
-	color: #ebcb8b;
+	color: #fabd2f;
 }
 .green {
-	color: #a3be8c;
+	color: #8ec07c;
 }
 .blue {
-	color: #8fa1b3;
+	color: #83a598;
 }
 
 html, body {
@@ -22,8 +22,8 @@ html, body {
 }
 
 body {
-	background-color: #121212;
-	color:#c0c5ce;
+	background-color: #282828;
+	color:#ebdbb2;
    }
    
 main {
@@ -41,7 +41,7 @@ main {
 }	
 
 #clock {
-	color: #c0c5ce;
+	color: #ebdbd2;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -66,17 +66,17 @@ li {
 }
 
 a {
-	color:#c0c5ce;
+	color:#ebdbb2;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #65737e;
+	color: #a89984;
 }
 
 #input1 {
-	background: #65737e;
-	color: #c0c5ce;
+	background: #a89984;
+	color: #ebdbb2;
 	border: none;
 	font-family: mononoki Nerd Font;
 	font-size: 20px;
