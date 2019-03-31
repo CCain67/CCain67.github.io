@@ -41,7 +41,7 @@ main {
 }	
 
 #clock {
-	color: #ebdbd2;
+	color: #ebdbb2;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -105,11 +105,11 @@ a:hover {
 .bangH {
 	display: block;
 	text-align: right;
-	color: white;
+	color: #ebdbb2;
 }
 .siteH {
 	display: block;
-	color: white;
+	color: #ebdbb2;
 }
 .bang {
 	display: block;
