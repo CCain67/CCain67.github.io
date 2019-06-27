@@ -109,7 +109,129 @@ a:hover {
 }
 .siteH {
 	display: block;
+	color: #/* COLORS */
+.purple {
+	color: #DD672C;
+}
+.red {
+	color: #E06C75;
+}
+.yellow {
+	color: #E5C07B;
+}
+.green {
+	color: #C8AE9D;
+}
+.blue {
+	color: #EBEBFF;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	text-transform: none;
+}
+
+body {
+	background-color: #282C34;
+	color:#ABB2BF;
+   }
+   
+main {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} 
+  
+@media screen and (max-width: 500px) {
+	.header {
+		display: block;
+	}
+}	
+
+#clock {
+	color: #ABB2BF;
+	margin-bottom: 25px;
+}
+#datebox {
+	display: inline-block;
+	font-weight: bold;
+	}
+
+.header {
+	width: 200px;
+	text-align: right;
+	font-weight: bold;
+	margin: 0 20px;
+}	
+
+li {
+	font-size: 20px;
+	font-weight: bold;
+	font-family: InconsolataGo Nerd Font;
+	display: inline-block;
+	list-style: none;
+	margin: 3px 10px; 
+}
+
+a {
+	color:#ebdbb2;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #a89984;
+}
+
+#input1 {
+	background: #2C323C;
 	color: #ebdbb2;
+	border: none;
+	font-family: InconsolataGo Nerd Font;
+	font-size: 20px;
+	font-weight: bold;
+	height: 25px;
+	text-align: center;
+	margin-top: 45px;
+	padding: 7px;
+	transition: .ls;
+	width: 1000px; 
+	outline: none;
+	text-transform: none;
+	border-radius: 15px;
+}
+
+#help {
+	display: block;
+	margin-top: 50px;
+}
+
+.col {
+	width: 20%;
+	display: inline-block;
+	vertical-align: top;
+}
+.bangH {
+	display: block;
+	text-align: right;
+	color: #ebdbb2;
+}
+.siteH {
+	display: block;
+	color: #ABB2BF;
+}
+.bang {
+	display: block;
+	text-align: right;
+}
+.site {
+	display: block;
+}
+
+
+;
 }
 .bang {
 	display: block;
