@@ -1,18 +1,18 @@
 /* COLORS */
 .purple {
-	color: #d3869b;
+	color: #DD672C;
 }
 .red {
-	color: #fb4934;
+	color: #E06C75;
 }
 .yellow {
-	color: #fabd2f;
+	color: #E5C07B;
 }
 .green {
-	color: #8ec07c;
+	color: #C8AE9D;
 }
 .blue {
-	color: #83a598;
+	color: #EBEBFF;
 }
 
 html, body {
@@ -22,8 +22,8 @@ html, body {
 }
 
 body {
-	background-color: #282828;
-	color:#ebdbb2;
+	background-color: #282C34;
+	color:#ABB2BF;
    }
    
 main {
@@ -41,7 +41,7 @@ main {
 }	
 
 #clock {
-	color: #ebdbb2;
+	color: #ABB2BF;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -59,7 +59,7 @@ main {
 li {
 	font-size: 20px;
 	font-weight: bold;
-	font-family: Anonymice Nerd Font;
+	font-family: InconsolataGo Nerd Font;
 	display: inline-block;
 	list-style: none;
 	margin: 3px 10px; 
@@ -75,10 +75,10 @@ a:hover {
 }
 
 #input1 {
-	background: #3c3836;
+	background: #2C323C;
 	color: #ebdbb2;
 	border: none;
-	font-family: Anonymice Nerd Font;
+	font-family: InconsolataGo Nerd Font;
 	font-size: 20px;
 	font-weight: bold;
 	height: 25px;
