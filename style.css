@@ -75,7 +75,7 @@ a:hover {
 }
 
 #input1 {
-	background: #2C323C;
+	background: #282c34;
 	color: #ABB2BF;
 	border: none;
 	font-family: InconsolataGo Nerd Font;
@@ -90,7 +90,7 @@ a:hover {
 	outline: none;
 	text-transform: none;
 	border-radius: 15px;
-	box-shadow: 0 1px 3px rgba(0,0,0,.5) !important;
+	box-shadow: 0 1px 6px rgba(0,0,0,.5) !important;
 }
 
 #help {
