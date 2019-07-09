@@ -1,18 +1,18 @@
 /* COLORS */
 .purple {
-	color: #DD672C;
+	color: #D3869B;
 }
 .red {
-	color: #E06C75;
+	color: #FB4934;
 }
 .yellow {
-	color: #E5C07B;
+	color: #FABD2F;
 }
 .green {
-	color: #C8AE9D;
+	color: #8EC07C;
 }
 .blue {
-	color: #EBEBFF;
+	color: #83A598;
 }
 
 html, body {
@@ -22,8 +22,8 @@ html, body {
 }
 
 body {
-	background-color: #282C34;
-	color:#ABB2BF;
+	background-color: #282828;
+	color:#EBDBB2;
    }
    
 main {
@@ -41,7 +41,7 @@ main {
 }	
 
 #clock {
-	color: #ABB2BF;
+	color: #EBDBB2;
 	margin-bottom: 25px;
 }
 #datebox {
@@ -66,7 +66,7 @@ li {
 }
 
 a {
-	color:#ABB2BF;
+	color:#ebdbb2;
 	text-decoration: none;
 }
 
@@ -75,8 +75,8 @@ a:hover {
 }
 
 #input1 {
-	background: #282c34;
-	color: #ABB2BF;
+	background: #1D2021;
+	color: #ebdbb2;
 	border: none;
 	font-family: InconsolataGo Nerd Font;
 	font-size: 20px;
@@ -106,11 +106,11 @@ a:hover {
 .bangH {
 	display: block;
 	text-align: right;
-	color: #ABB2BF;
+	color: #ebdbb2;
 }
 .siteH {
 	display: block;
-	color: #ABB2BF;
+	color: #ebdbb2;
 }
 .bang {
 	display: block;
@@ -119,3 +119,5 @@ a:hover {
 .site {
 	display: block;
 }
+
+
