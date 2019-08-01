@@ -57,9 +57,9 @@ main {
 }	
 
 li {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
-	font-family: InconsolataGo Nerd Font;
+	font-family: Iosevka Custom;
 	display: inline-block;
 	list-style: none;
 	margin: 3px 10px; 
@@ -78,8 +78,8 @@ a:hover {
 	background: #32302F;
 	color: #ebdbb2;
 	border: none;
-	font-family: InconsolataGo Nerd Font;
-	font-size: 20px;
+	font-family: Iosevka Custom;
+	font-size: 18px;
 	font-weight: bold;
 	height: 25px;
 	text-align: center;
