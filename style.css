@@ -59,7 +59,7 @@ main {
 li {
 	font-size: 18px;
 	font-weight: medium;
-	font-family: FuraCode Nerd Font;
+	font-family: Whyosevka;
 	display: inline-block;
 	list-style: none;
 	margin: 3px 10px; 
@@ -78,7 +78,7 @@ a:hover {
 	background: #32302F;
 	color: #ebdbb2;
 	border: none;
-	font-family: FuraCode Nerd Font;
+	font-family: Whyosevka;
 	font-size: 18px;
 	font-weight: medium;
 	height: 25px;
