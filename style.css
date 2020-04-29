@@ -52,7 +52,7 @@ main {
 .header {
 	width: 200px;
 	text-align: right;
-	font-weight: medium;
+	font-weight: bold;
 	margin: 0 20px;
 }	
 
