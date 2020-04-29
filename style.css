@@ -50,10 +50,10 @@ main {
 	}
 
 .header {
-	width: 200px;
-	text-align: right;
-	font-weight: bold;
-	margin: 0 20px;
+    width: 300px;
+    text-align: right;
+    font-weight: bold;
+    margin: 0px 0px 0px 0px;
 }	
 
 li {
