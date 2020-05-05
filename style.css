@@ -57,7 +57,7 @@ main {
 }	
 
 li {
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: medium;
 	font-family: scientifica;
 	display: inline-block;
@@ -79,7 +79,7 @@ a:hover {
 	color: #ebdbb2;
 	border: none;
 	font-family: scientifica;
-	font-size: 18px;
+	font-size: 22px;
 	font-weight: medium;
 	height: 25px;
 	text-align: center;
